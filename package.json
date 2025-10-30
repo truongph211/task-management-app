@@ -1,0 +1,21 @@
+{
+  "name": "projectx",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000t\u0000a\u0000s\u0000k\u0000-\u0000m\u0000a\u0000n\u0000a\u0000g\u0000e\u0000m\u0000e\u0000n\u0000t\u0000-\u0000a\u0000p\u0000p\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix frontend && npm install --prefix backend && npm run build --prefix frontend",
+    "start": "NODE_ENV=production npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/truongph211/task-management-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/truongph211/task-management-app/issues"
+  },
+  "homepage": "https://github.com/truongph211/task-management-app#readme"
+}
